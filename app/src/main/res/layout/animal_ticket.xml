@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idanimalticket"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/idanimalcard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5pt"
+        android:background="@drawable/background"
+        android:orientation="horizontal"
+        android:padding="5pt">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            app:srcCompat="@drawable/deer" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5pt">
+
+            <TextView
+                android:id="@+id/idtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deer"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/iddes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deer is a very nice animal. Deer lives in jungle with other animal." />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
